@@ -1,11 +1,13 @@
 import './Home.scss'
-
-
+import Menu from '../Menu/Menu'
 
 const Home = () => {
-
     return (
         <div className="home">
+            <div className="menu-area">
+                <Menu />
+            </div>
+
             <div className="content-area">
                 <div className="content">
                     <p>Content</p>
