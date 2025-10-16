@@ -1,8 +1,10 @@
+@use "../../styles/base.scss" as *;
+
 .testScreen{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34;
+    background-color: $body-bg;
 }

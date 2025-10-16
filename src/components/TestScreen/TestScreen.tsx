@@ -1,9 +1,10 @@
+import SearchBar from '../SearchBar/SearchBar'
 import './TestScreen.scss'
 
 const TestScreen = () => {
   return (
     <div className="testScreen">
-        <h1>Test Screen</h1>
+        <SearchBar />
     </div>
   )
 }
