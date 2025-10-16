@@ -1,10 +1,10 @@
-import SearchBar from '../SearchBar/SearchBar'
+import Header from '../Header/Header'
 import './TestScreen.scss'
 
 const TestScreen = () => {
   return (
     <div className="testScreen">
-        <SearchBar />
+        <Header />
     </div>
   )
 }
