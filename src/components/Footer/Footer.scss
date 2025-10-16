@@ -1,0 +1,9 @@
+@use '../../styles/base.scss' as *;
+
+.footer {
+    background-color: $footer-color;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem;
+}
