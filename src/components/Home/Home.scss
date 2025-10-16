@@ -1,0 +1,31 @@
+@use "../../styles/base.scss" as *;
+
+.home {
+    background-color: #1c173d;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .content-area {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+    }
+
+    .content{
+        padding: 1rem;
+        flex: 1;
+        background-color: #5941f8;
+    }
+}
