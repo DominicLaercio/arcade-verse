@@ -1,5 +1,6 @@
 import './Home.scss'
 import Menu from '../Menu/Menu'
+import Header from '../Header/Header'
 import { useState } from 'react'
 
 
@@ -9,13 +10,17 @@ const Home = () => {
 
     return (
         <div className="home">
-            <div className="menu-button" onClick={toggleMenu}>
-                <i className="bi bi-list"></i>
-            </div>
-
             <div className={`menu-area ${menuOpen ? 'open' : ''}`}>
                 <Menu />
             </div>
+
+            <div className="header-area">
+                <div className="menu-button" onClick={toggleMenu}>
+                    <i className="bi bi-list"></i>
+                </div>
+                <Header />
+            </div>
+
 
             <div className="content-area">
                 <div className="content">
