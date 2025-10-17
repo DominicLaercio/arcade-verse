@@ -1,9 +1,10 @@
+import ArticleScreen from '../ArticleScreen/ArticleScreen'
 import './TestScreen.scss'
-import Article from '../Article/Article'
+//import Article from '../Article/Article'
 
 const TestScreen = () => {
   return (
-    <div className="testScreen">
+    /*<div className="testScreen">
         <Article
             articleTitle="Article example"
             mainImageUrl="https://www.incredibuild.com/wp-content/uploads/2021/02/shutterstock_1685146147-scaled-1.jpg"
@@ -21,6 +22,9 @@ const TestScreen = () => {
                 <li>List item 2</li>
             </ul>
         </Article>
+    </div>*/
+    <div className='testScreen'>
+        <ArticleScreen/>
     </div>
   )
 }
