@@ -1,0 +1,50 @@
+@use "../../styles/base.scss" as *;
+
+.article{
+    width: 100%;
+    height: auto;
+    //background-color: $transparent-dark;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+
+    .title{
+        padding: 1rem;
+        text-decoration: underline;
+        border: 5px solid $primary;
+    }
+
+    .info{
+        padding: 1rem;
+        display: flex;
+        gap: 3rem;
+
+        .author, .date{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .article-body{
+        background-color: $transparent-dark;
+        padding: 1rem;
+    }
+
+    .article-image {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: auto;
+            max-width: 80%;
+            min-width: 0;
+            object-fit: cover;
+            display: block;
+        }
+    }
+}

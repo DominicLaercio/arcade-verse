@@ -14,6 +14,8 @@ $bg-light: #6476e8;
 
 $footer-color: #6477c5;
 
+$transparent-dark: #34426888;
+
 @mixin inner-shadow($hoff: 0px, $voff: 0px, $blur: 5px, $spread: 0px, $color: rgba(0, 0, 0, 0.5)) {
   box-shadow: inset $hoff $voff $blur $spread $color;
 }
