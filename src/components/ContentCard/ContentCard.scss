@@ -1,14 +1,20 @@
 @use "../../styles/base.scss" as *;
 
 .content-card{
-    width: 600px;
-    height: 400px;
+    width: auto;
+    height: auto;
     border-radius: 0.5rem;
+    aspect-ratio: 3/2;
     @include inner-shadow(0, 0, 1rem, 0.2rem, black);
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    :hover{
+        border: 1px solid white;
+        cursor: pointer;
+    }
 
     .card{
         width: 100%;
@@ -16,9 +22,15 @@
         display: flex;
         flex-direction: column;
         justify-content: end;
+        text-align: left;
         padding: 1rem;
         background: transparent;
         color: white;
         text-shadow: 0 0 0.3rem black;
+        overflow: hidden;
+
+        :hover{
+            border: none;
+        }
     }
 }
