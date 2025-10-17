@@ -1,6 +1,7 @@
 import './Home.scss'
 import Menu from '../Menu/Menu'
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 import { useState } from 'react'
 
 
@@ -29,6 +30,8 @@ const Home = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nihil rem quaerat laudantium dolores vitae, ex culpa qui magnam commodi cum porro pariatur modi minus magni iure velit excepturi recusandae.</p>
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }
