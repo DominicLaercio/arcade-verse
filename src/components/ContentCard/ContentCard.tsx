@@ -10,8 +10,8 @@ const ContentCard: React.FC<CardProps> = ({title, description, imageUrl}) => {
     return (
         <div className='content-card' style={cardStyle}>
             <div className="card">
-                <p>{description}</p>
                 <h2>{title}</h2>
+                <p>{description}</p>
             </div>
         </div>
     )
