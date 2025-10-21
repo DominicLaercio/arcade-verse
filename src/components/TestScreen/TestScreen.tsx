@@ -1,9 +1,9 @@
-import GameDetailScreen from '../GameDetailScreen/GameDetailScreen'
+import Commentary from '../Commentary/Commentary'
 import './TestScreen.scss'
 
 const TestScreen = () => {
   return (
-    <div className='testScreen'>
+    /*<div className='testScreen'>
        <GameDetailScreen
             bgImageUrl="https://torrent4you.org/wp-content/uploads/call-of-duty-modern-warfare-2-2.jpg"
             coverUrl="https://static.posters.cz/image/1300/7151.jpg"
@@ -14,7 +14,12 @@ const TestScreen = () => {
             metacritic="88"
             platforms="PC, PS5"
         />
-    </div>
+    </div>*/
+    <Commentary
+        username={'Dominic'}
+        content={'Skibidi toilet.'}
+        date={'06/06/2006'}
+    />
   )
 }
 
