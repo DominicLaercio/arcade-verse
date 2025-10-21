@@ -1,0 +1,32 @@
+@use '../../styles/base.scss' as *;
+
+.game-card{
+    background-color: $primary;
+    color: black;
+    padding: 0.1rem;
+    max-width: 300px;
+    max-height: fit-content;
+
+    .cover-image{
+        aspect-ratio: 2/3;
+        border: 3px solid white;
+        padding: 0.2rem;
+        max-height: 450px;
+    }
+
+    .title{
+        border: 3px solid white;
+        border-top: 0;
+        padding: 0.5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .info{
+        border: 3px solid white;
+        border-top: 0;
+        padding: 0.5rem;
+        font-style: italic;
+        color: white;
+    }
+}

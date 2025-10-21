@@ -1,30 +1,19 @@
-import ArticleScreen from '../ArticleScreen/ArticleScreen'
+import GameCard from '../GameCard/GameCard'
 import './TestScreen.scss'
-//import Article from '../Article/Article'
 
 const TestScreen = () => {
   return (
-    /*<div className="testScreen">
-        <Article
-            articleTitle="Article example"
-            mainImageUrl="https://www.incredibuild.com/wp-content/uploads/2021/02/shutterstock_1685146147-scaled-1.jpg"
-            authorName="John Doe"
-            publishDate="10/17/2025"
-        >
-            <p>This is the first paragraph of the article.</p>
-
-            <img src="https://miro.medium.com/v2/resize:fit:1400/1*kfU-uEAdlkgy9nOUwYx6Ww.png" alt="Engine Diagram" style={{ width: '50%', margin: '1rem auto', display: 'block' }} />
-
-            <p>A second paragraph. The component can accept multiple paragraphs.</p>
-
-            <ul>
-                <li>List item 1</li>
-                <li>List item 2</li>
-            </ul>
-        </Article>
-    </div>*/
     <div className='testScreen'>
-        <ArticleScreen/>
+        <GameCard
+            imageUrl={'https://i.redd.it/steam-grid-set-for-karlach-lovers-v0-fylu9lkhwvnb1.png?width=600&format=png&auto=webp&s=33da27f328c85e43f2661fd51724240aa38a3408'}
+            title={'Baldur\'s Gate III'}
+            subtitle={''}
+            description={'Third tittle of the Baldur\'s Gate series.'}
+            releaseDate={'08/03/2023'}
+            metacritic={'96'}
+            rating={'9.2'}
+            platforms={'PlayStation 5, Xbox Series X and Series S, GeForce Now, Microsoft Windows, Mac operating systems'}
+        />
     </div>
   )
 }

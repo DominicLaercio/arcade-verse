@@ -1,13 +1,11 @@
 //import Home from './components/Home/Home'
-//import TestScreen from './components/TestScreen/TestScreen'
-import ArticleScreen from "./components/ArticleScreen/ArticleScreen"
+import TestScreen from './components/TestScreen/TestScreen'
 
 function App() {
 
   return (
     //<Home />
-    //<TestScreen />
-    <ArticleScreen/>
+    <TestScreen />
   )
 }
 
