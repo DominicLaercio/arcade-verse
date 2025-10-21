@@ -1,18 +1,18 @@
-import GameCard from '../GameCard/GameCard'
+import GameDetailScreen from '../GameDetailScreen/GameDetailScreen'
 import './TestScreen.scss'
 
 const TestScreen = () => {
   return (
     <div className='testScreen'>
-        <GameCard
-            imageUrl={'https://i.redd.it/steam-grid-set-for-karlach-lovers-v0-fylu9lkhwvnb1.png?width=600&format=png&auto=webp&s=33da27f328c85e43f2661fd51724240aa38a3408'}
-            title={'Baldur\'s Gate III'}
-            subtitle={''}
-            description={'Third tittle of the Baldur\'s Gate series.'}
-            releaseDate={'08/03/2023'}
-            metacritic={'96'}
-            rating={'9.2'}
-            platforms={'PlayStation 5, Xbox Series X and Series S, GeForce Now, Microsoft Windows, Mac operating systems'}
+       <GameDetailScreen
+            bgImageUrl="https://torrent4you.org/wp-content/uploads/call-of-duty-modern-warfare-2-2.jpg"
+            coverUrl="https://static.posters.cz/image/1300/7151.jpg"
+            title="Call of Duty"
+            subtitle="Modern Warfare 2"
+            description="<p>Long description here...</p>"
+            releaseDate="2025-10-21"
+            metacritic="88"
+            platforms="PC, PS5"
         />
     </div>
   )

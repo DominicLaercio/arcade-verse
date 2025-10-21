@@ -2,14 +2,14 @@ import './GameCard.scss'
 import type { GameCardProps } from './GameCard.types'
 
 const GameCard = ({
-  imageUrl,
-  title,
-  subtitle,
-  description,
-  releaseDate,
-  metacritic,
-  rating,
-  platforms
+    imageUrl,
+    title,
+    subtitle,
+    description,
+    releaseDate,
+    metacritic,
+    rating,
+    platforms
 }: GameCardProps) => {
   return (
     <div className='game-card'>
